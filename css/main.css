@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -24,6 +24,7 @@
     color: #6c757d;
     margin: 0px 0px 64px;
     font-size: 16px;
+    font-style: italic;
     font-family: 'Roboto Slab', serif;
 }
 /* section1 */
@@ -44,19 +45,19 @@
 }
 .section1 .list{
     width: 60%;
-    flex-direction: row;
     margin-top: 2px;
 }
 .section1 .list ul{
     display: flex;
     justify-content: right;
-    column-gap: 10px;
+    column-gap: 30px;
 }
 .section1 .list li{
     list-style-type: none;
 }
 .section1 .list a{
     color: white;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -81,17 +82,18 @@
 .textp-section{
     font-style: italic;
     text-transform: capitalize;
-    font-family:'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
-    font-size: 24px;
+    font-size: 26px;
     margin: 0px 0px 25px;
 }
 .text-section{
     font-weight:bold;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
-    font-size: 52px;
+    font-family:'Roboto', sans-serif;
+    color: white;
+    font-size: 58px;
+    
     margin: 0px 0px 32px;
 }
 .btn{
@@ -99,7 +101,9 @@
     font-size: 18px;
     font-weight: bold;
     color: #ffffff;
+    border-radius: 8px;
     background-color: #ffc800;
+    border-style: none;
     cursor: pointer;
     padding: 20px 40px;
     font-family: 'Montserrat', sans-serif;
